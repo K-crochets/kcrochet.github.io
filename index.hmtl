@@ -5,36 +5,72 @@
 
 <style>
 body {
-  background-color: #fff0f5;
-  text-align: center;
+  background: linear-gradient(#ffe4ec, #fff);
   font-family: Arial;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background: #ffb6c1;
+  padding: 30px;
+  border-bottom: 5px dotted white;
 }
 
 h1 {
-  color: hotpink;
+  margin: 0;
+  color: white;
+  font-size: 40px;
+}
+
+h2 {
+  color: #ff69b4;
+}
+
+.section {
+  padding: 25px;
 }
 
 img {
-  width: 200px;
-  border-radius: 20px;
+  width: 180px;
+  border-radius: 25px;
   margin: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+}
+
+img:hover {
+  transform: scale(1.08);
+}
+
+.card {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 25px;
+  width: 85%;
+  max-width: 500px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+footer {
+  margin-top: 20px;
+  padding: 15px;
+  background: #ffb6c1;
+  color: white;
 }
 </style>
 
 </head>
 
-<body
-<h1>🧶 K Crochets</h1>
-<p><b>Plushies for Everyone 💕</b></p>
-
-<h2>My Amigurumi</h2>
-
-<img src="plushie1.jpg">
-<img src="plushie2.jpg">
-
-<p>more coming soon ✨</p>
 <body>
 
-<h1>TESTTTTT</h1>
-
 <header>
+  <h1>🧶 K Crochets</h1>
+  <p><b>Plushies for Everyone 💕</b></p>
+</header>
+
+<div class="card">
+  <h2>🌊 Ocean Buddies</h2>
+  <img src="IMG2355.jpeg">
+</div>
